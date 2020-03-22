@@ -1,0 +1,20 @@
+{
+  "name": "cab",
+  "version": "1.0.0",
+  "description": "cards against bordom",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Thomas Pokorny",
+  "license": "ISC",
+  "dependencies": {
+    "stomp-broker-js": "^1.3.0",
+    "websocket": "^1.0.31"
+  },
+  "type": "module",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0"
+  }
+}

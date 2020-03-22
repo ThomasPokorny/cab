@@ -1,0 +1,20 @@
+{
+    "questions": [ 
+        {
+        "id": 0,
+        "question": "Wer hat $_$ ..?"
+        },
+        {
+        "id": 1,
+        "question": "Wer hat $_$ ..?"
+        },
+        {
+        "id": 2,
+        "question": "Wer hat $_$ ..?"
+        },
+        {
+        "id": 3,
+        "question": "Wer hat $_$ ..?"
+        }
+    ]
+}

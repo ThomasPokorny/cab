@@ -7,6 +7,8 @@ const WebSocketServer = require('websocket').server;
 const http = require('http');
 const fs = require('fs');
 
+console.log("trying to start");
+
 const server = http.createServer(function(request, response) {
   // process HTTP request. Since we're writing just WebSockets
   // server we don't have to implement anything.
@@ -39,6 +41,7 @@ wsServer = new WebSocketServer({
   httpServer: server
 });
 
+console.log("setup was successfull..");
 
 // WebSocket server
 wsServer.on('request', function(request) {
